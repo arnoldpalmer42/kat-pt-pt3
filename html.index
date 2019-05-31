@@ -31,6 +31,7 @@
       </p>
       <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
+
     <div class="row justify-content-center col-lg-12">
       <ul class="nav pt-2">
         <li class="nav-item">
@@ -47,6 +48,7 @@
         </li>
       </ul>
     </div>
+
     <div class="row justify-content-around lg-col-4 pt-3">
       <div class="card shadow-lg" style="width: 24rem;">
         <img class="card-img-top" src="..." alt="Card image cap" />
@@ -82,7 +84,24 @@
         </div>
       </div>
     </div>
-
+    <div>
+      <p class="h1 pt-4 pl-4 pb-0">Tell us about you</p>
+    </div>
+    <div class="p-3 justify-content-around">
+      <div class="col-lg-6 p-3">
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Example label</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+          </div>
+          <div class="form-group">
+            <label for="formGroupExampleInput2">Another label</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
