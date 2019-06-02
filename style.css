@@ -1,3 +1,9 @@
 body {
   background: lavender;
 }
+.jumbotron {
+  background: lavender;
+}
+.h1 {
+  font-family: "Bree Serif", serif;
+}
