@@ -13,14 +13,17 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Hello, world!</title>
   </head>
   <body>
-    
+
     
 <!-- Nav Bar -->
-    <div class="row justify-content-end col-lg-12">
+    <div class="row justify-content-end col-lg-12"
+    >
       <ul class="nav pt-2">
         <li class="nav-item">
           <a class="nav-link active" href="#">Home</a>
@@ -37,10 +40,29 @@
       </ul>
     </div>
 
+<!-- jumbotron -->
+
+<div class="jumbotron pb-3 mb-0" data-aos="fade-up">
+    <div class="row justify-content-center col-sm-12 pb-4">
+      <h1 class="display-4 h1 text-dark" data-aos="fade-up">Personal Training with Kat</h1> 
+    </div>
+    <div class="pb-2 row justify-content-around">
+      <img class="h-50 w-50 shadow-lg" src="https://images.pexels.com/photos/1153370/pexels-photo-1153370.jpeg?cs=srgb&dl=adult-bowl-cute-1153370.jpg&fm=jpg" alt="Card image cap" />
+    </div>
+   
+    <p class="lead p-4 row justify-content-center" data-aos="fade-up">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus
+      fuga sed facilis rem? Fugit obcaecati amet laboriosam quidem commodi
+      corrupti, iure quisquam maiores, autem rem.
+    </p>
+    <hr class="my-4" data-aos="fade-up"/>
+    </div>
+
+    
 
 <!-- Cards -->
     <div id="learn" class="row justify-content-around lg-col-4 pt-3 pb-4">
-      <div class="card shadow-lg border" style="width: 24rem;">
+      <div class="card shadow-lg border" style="width: 24rem;" data-aos="fade-up-right">
         <img class="card-img-top" src="https://images.pexels.com/photos/1308746/pexels-photo-1308746.jpeg?cs=srgb&dl=active-activity-adult-1308746.jpg&fm=jpg" alt="Card image cap" />
         <div class="card-body bg-dark text-light">
           <h5 class="card-title row justify-content-center">Card title</h5>
@@ -53,7 +75,7 @@
           </div>
         </div>
       </div>
-      <div class="card shadow-lg" style="width: 24rem;">
+      <div class="card shadow-lg" style="width: 24rem;" data-aos="fade-up">
         <img class="card-img-top" src="https://images.pexels.com/photos/28080/pexels-photo.jpg?cs=srgb&dl=crossfit-fitness-gym-28080.jpg&fm=jpg" alt="Card image cap" />
         <div class="card-body bg-dark text-light">
           <h5 class="card-title row justify-content-center">Card title</h5>
@@ -66,7 +88,7 @@
           </div>
         </div>
       </div>
-      <div class="card shadow-lg" style="width: 24rem;">
+      <div class="card shadow-lg" style="width: 24rem;" data-aos="fade-up-left">
         <img class="card-img-top" src="https://images.pexels.com/photos/2294354/pexels-photo-2294354.jpeg?cs=srgb&dl=active-body-exercise-2294354.jpg&fm=jpg" alt="Card image cap" />
         <div class="card-body bg-dark text-light">
           <h5 class="card-title row justify-content-center">Card title</h5>
@@ -84,9 +106,9 @@
 
 
 <!-- jumbotron -->
-    <div class="jumbotron pb-3 mb-0 shadow-lg">
+    <div class="jumbotron pb-3 mb-0">
         <div class="row justify-content-center pb-4">
-          <h1 class="display-4 h1">Personal Training with Kat</h1> 
+          <h1 class="display-4 h1">Feel better starting today</h1> 
         </div>
         <div class="pb-3 row justify-content-around">
           <img class="h-25 w-25" src="https://images.pexels.com/photos/1153370/pexels-photo-1153370.jpeg?cs=srgb&dl=adult-bowl-cute-1153370.jpg&fm=jpg" alt="Card image cap" />
@@ -143,6 +165,10 @@
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
