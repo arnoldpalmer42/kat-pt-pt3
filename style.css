@@ -7,10 +7,6 @@ body {
 .display-1 {
   font-family: "Bree Serif", serif;
 }
-.big-card {
-  background:lavenderblush;
+.footer {
+  background: rgb(198, 198, 211);
 }
-@media (min-width: 576px) {
-  
- }
- 
