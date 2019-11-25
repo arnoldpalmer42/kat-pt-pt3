@@ -4,7 +4,10 @@ body {
 }
 .main-image {
   margin: auto;
-  height: 46vh;
+  height: 50vh;
+}
+.nav-item {
+  font-weight: 400;
 }
 .jumbotron {
   background: lavender;
@@ -24,6 +27,8 @@ body {
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
+
+/* 
 @keyframes rotate-div {
   0% {
     transform: scale(0.9);
